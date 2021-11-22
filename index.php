@@ -1,3 +1,3 @@
 <?php
-    require_once("vistas/template.php");
+    require_once("views/template.php");
 ?>

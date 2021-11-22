@@ -23,7 +23,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            Hola Mofletes, Te kelo aunque seas muy pesadita
+            <?php include_once("routes.php");?>
         </div>
 
     </div>
