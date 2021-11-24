@@ -1,7 +1,14 @@
 <?php
 
-    include_once("controllers/controllerPages.php");
+    echo $controller;
+    echo $accion;
 
-    $controller= new ControllerPages();
-    $controller->star();
+
+    include_once("controllers/controller".$controller.".php");
+    
+    $objController="Controller".ucfirst($controller);
+
+    $controller= new $objController();
+    
+    $controller->$accion();
 ?>

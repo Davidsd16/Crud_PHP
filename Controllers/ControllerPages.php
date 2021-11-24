@@ -1,6 +1,6 @@
 <?php
     class  ControllerPages{
-        public function star(){
+        public function start(){
 
             include_once("views/pages/start.php");
 
